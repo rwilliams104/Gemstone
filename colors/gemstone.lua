@@ -100,3 +100,48 @@ hl("@constructor.cpp",       { fg = c.amethyst })
 hl("@function.call.cpp",     { fg = c.amethyst })
 hl("@operator.cpp",          { fg = c.aqua })
 hl("@punctuation.bracket.cpp", { fg = c.muted })
+
+-- Namespaces and modules
+hl("@module",           { fg = c.sapphire })
+hl("@module.builtin",   { fg = c.sapphire })
+
+-- Types and classes
+hl("@type",             { fg = c.diamond })
+hl("@type.builtin",     { fg = c.ruby })
+hl("@type.definition",  { fg = c.diamond })
+
+-- Functions
+hl("@function",         { fg = c.amethyst })
+hl("@function.call",    { fg = c.amethyst })
+hl("@function.method",  { fg = c.amethyst })
+hl("@function.method.call", { fg = c.amethyst })
+hl("@constructor",      { fg = c.diamond })
+
+-- Variables
+hl("@variable",           { fg = c.fg })
+hl("@variable.parameter", { fg = c.rose })
+hl("@variable.member",    { fg = c.rose })
+hl("@variable.builtin",   { fg = c.sapphire })
+
+-- Keywords
+hl("@keyword",             { fg = c.ruby })
+hl("@keyword.return",      { fg = c.ruby })
+hl("@keyword.conditional", { fg = c.ruby })
+hl("@keyword.repeat",      { fg = c.ruby })
+hl("@keyword.type",        { fg = c.ruby })
+
+-- Values
+hl("@string",            { fg = c.emerald })
+hl("@character",         { fg = c.emerald })
+hl("@number",            { fg = c.topaz })
+hl("@boolean",           { fg = c.topaz })
+hl("@constant",          { fg = c.topaz })
+
+-- Operators and punctuation
+hl("@operator",          { fg = c.aqua })
+hl("@punctuation.bracket",   { fg = c.muted })
+hl("@punctuation.delimiter", { fg = c.fg })
+
+-- Comments
+hl("@comment", { fg = c.muted, italic = true })
+
