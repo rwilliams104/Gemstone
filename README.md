@@ -86,6 +86,6 @@ soft pastel colors inspired by precious gemstones.
 ### Palette Preview
 
 <div align="center">
-  <img src="assets/gemstone-palette.png" width="700" alt="Gemstone Color Palette">
+  <img src="assets/gemstone_pallete.png" width="700" alt="Gemstone Color Palette">
 </div>
 
