@@ -57,3 +57,35 @@ vim.opt.termguicolors = true
 vim.cmd.colorscheme("gemstone")
 ```
 
+
+
+---
+
+## Color Palette
+
+Gemstone combines a dark, smoky charcoal background with
+soft pastel colors inspired by precious gemstones.
+
+| Gemstone | Hex Code | Usage |
+|----------|----------|-------|
+| Coal | `#1A1B1E` | Main background |
+| Smoke | `#24262B` | Secondary background |
+| Moonstone | `#E6E6E6` | Primary text |
+| Quartz | `#A0A7B4` | Comments and muted text |
+| Ruby | `#F28B8B` | Keywords and control flow |
+| Amethyst | `#C4A7E7` | Functions and methods |
+| Emerald | `#9ED5A6` | Strings and characters |
+| Diamond | `#8ECBFF` | Types and classes |
+| Topaz | `#F6D186` | Numbers and constants |
+| Rose Quartz | `#F7B7D4` | Parameters and properties |
+| Aquamarine | `#7DDAD6` | Operators |
+| Sapphire | `#B7C1F7` | Special syntax |
+
+
+
+### Palette Preview
+
+<div align="center">
+  <img src="assets/gemstone-palette.png" width="700" alt="Gemstone Color Palette">
+</div>
+
