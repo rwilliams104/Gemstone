@@ -89,3 +89,24 @@ soft pastel colors inspired by precious gemstones.
   <img src="assets/gemstone_pallete.png" width="700" alt="Gemstone Color Palette">
 </div>
 
+
+
+---
+
+## Features
+
+- Dark coal-grey background with smoky charcoal accents
+- Soft pastel colors inspired by precious gemstones
+- Syntax highlighting for C++, Ruby, Lua, and other languages
+- Support for Neovim's built-in syntax highlighting
+- Tree-sitter highlight group support
+- Custom diagnostic colors for errors, warnings, and hints
+- Lightweight and written entirely in Lua
+- Compatible with lazy.nvim
+
+## Requirements
+
+- Neovim 0.8 or newer
+- A terminal with true-color support recommended
+- Tree-sitter optional for enhanced syntax highlighting
+
