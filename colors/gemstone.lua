@@ -69,79 +69,66 @@ hl("DiagnosticWarn",  { fg = c.topaz })
 hl("DiagnosticInfo",  { fg = c.diamond })
 hl("DiagnosticHint",  { fg = c.aqua })
 
--- Treesitter syntax highlighting
-hl("@keyword",           { fg = c.ruby })
-hl("@keyword.function",  { fg = c.ruby })
-hl("@keyword.return",    { fg = c.ruby })
-hl("@keyword.import",    { fg = c.ruby })
-hl("@function",          { fg = c.amethyst })
-hl("@function.call",     { fg = c.amethyst })
-hl("@function.method",   { fg = c.amethyst })
-hl("@method",            { fg = c.amethyst })
-hl("@string",            { fg = c.emerald })
-hl("@number",            { fg = c.topaz })
-hl("@boolean",           { fg = c.topaz })
-hl("@type",              { fg = c.diamond })
-hl("@type.builtin",      { fg = c.diamond })
-hl("@variable",          { fg = c.fg })
-hl("@variable.parameter",{ fg = c.rose })
-hl("@property",          { fg = c.rose })
-hl("@constant",          { fg = c.topaz })
-hl("@operator",          { fg = c.aqua })
-hl("@comment",           { fg = c.muted, italic = true })
--- Additional C++ Tree-sitter highlighting
-hl("@type.cpp",              { fg = c.diamond })
-hl("@type.builtin.cpp",      { fg = c.ruby })
-hl("@module.cpp",            { fg = c.sapphire })
-hl("@variable.cpp",          { fg = c.fg })
-hl("@variable.member.cpp",   { fg = c.rose })
-hl("@variable.parameter.cpp",{ fg = c.rose })
-hl("@constructor.cpp",       { fg = c.amethyst })
-hl("@function.call.cpp",     { fg = c.amethyst })
-hl("@operator.cpp",          { fg = c.aqua })
-hl("@punctuation.bracket.cpp", { fg = c.muted })
 
--- Namespaces and modules
-hl("@module",           { fg = c.sapphire })
-hl("@module.builtin",   { fg = c.sapphire })
-
--- Types and classes
-hl("@type",             { fg = c.diamond })
-hl("@type.builtin",     { fg = c.ruby })
-hl("@type.definition",  { fg = c.diamond })
-
--- Functions
-hl("@function",         { fg = c.amethyst })
-hl("@function.call",    { fg = c.amethyst })
-hl("@function.method",  { fg = c.amethyst })
-hl("@function.method.call", { fg = c.amethyst })
-hl("@constructor",      { fg = c.diamond })
-
--- Variables
-hl("@variable",           { fg = c.fg })
-hl("@variable.parameter", { fg = c.rose })
-hl("@variable.member",    { fg = c.rose })
-hl("@variable.builtin",   { fg = c.sapphire })
+-- Tree-sitter syntax highlighting
 
 -- Keywords
 hl("@keyword",             { fg = c.ruby })
+hl("@keyword.function",    { fg = c.ruby })
 hl("@keyword.return",      { fg = c.ruby })
+hl("@keyword.import",      { fg = c.ruby })
 hl("@keyword.conditional", { fg = c.ruby })
 hl("@keyword.repeat",      { fg = c.ruby })
 hl("@keyword.type",        { fg = c.ruby })
 
+-- Functions and methods
+hl("@function",             { fg = c.amethyst })
+hl("@function.call",        { fg = c.amethyst })
+hl("@function.method",      { fg = c.amethyst })
+hl("@function.method.call", { fg = c.amethyst })
+hl("@method",               { fg = c.amethyst })
+hl("@constructor",          { fg = c.diamond })
+
+-- Types and classes
+hl("@type",            { fg = c.diamond })
+hl("@type.builtin",    { fg = c.ruby })
+hl("@type.definition", { fg = c.diamond })
+
+-- Namespaces and modules
+hl("@module",         { fg = c.sapphire })
+hl("@module.builtin", { fg = c.sapphire })
+
+-- Variables and properties
+hl("@variable",           { fg = c.fg })
+hl("@variable.parameter", { fg = c.rose })
+hl("@variable.member",    { fg = c.rose })
+hl("@variable.builtin",   { fg = c.sapphire })
+hl("@property",           { fg = c.rose })
+
 -- Values
-hl("@string",            { fg = c.emerald })
-hl("@character",         { fg = c.emerald })
-hl("@number",            { fg = c.topaz })
-hl("@boolean",           { fg = c.topaz })
-hl("@constant",          { fg = c.topaz })
+hl("@string",    { fg = c.emerald })
+hl("@character", { fg = c.emerald })
+hl("@number",    { fg = c.topaz })
+hl("@boolean",   { fg = c.topaz })
+hl("@constant",  { fg = c.topaz })
 
 -- Operators and punctuation
-hl("@operator",          { fg = c.aqua })
+hl("@operator",              { fg = c.aqua })
 hl("@punctuation.bracket",   { fg = c.muted })
 hl("@punctuation.delimiter", { fg = c.fg })
 
 -- Comments
 hl("@comment", { fg = c.muted, italic = true })
+
+-- C++ specific highlighting
+hl("@type.cpp",                { fg = c.diamond })
+hl("@type.builtin.cpp",        { fg = c.ruby })
+hl("@module.cpp",              { fg = c.sapphire })
+hl("@variable.cpp",            { fg = c.fg })
+hl("@variable.member.cpp",     { fg = c.rose })
+hl("@variable.parameter.cpp",  { fg = c.rose })
+hl("@constructor.cpp",         { fg = c.amethyst })
+hl("@function.call.cpp",       { fg = c.amethyst })
+hl("@operator.cpp",            { fg = c.aqua })
+hl("@punctuation.bracket.cpp", { fg = c.muted })
 
